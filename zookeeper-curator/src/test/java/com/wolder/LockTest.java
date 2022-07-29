@@ -18,9 +18,11 @@ public class LockTest {
         //创建客户端
         Thread t1 = new Thread(ticket12306,"携程");
         Thread t2 = new Thread(ticket12306,"飞猪");
+        Thread t3 = new Thread(ticket12306,"赶集");
 
         t1.start();
         t2.start();
+        t3.start();
     }
 
 }

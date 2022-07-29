@@ -88,7 +88,7 @@ public class CuratorTest {
         /**
          * 创建多级节点
          */
-        client.create().creatingParentsIfNeeded().forPath("/test4");
+        client.create().creatingParentsIfNeeded().forPath("/test5");
 
     }
 
